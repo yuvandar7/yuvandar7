@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Grande';
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(39, 100, 150, 0.8);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0px;
+    float: left;
+}
+
+.container{
+    width: 1170px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-wrapper{
+    padding: 120px 0 150px 0;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1555066931-78c471f0d4ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
+    background-size:cover;
+    text-align: center;
+}
+
+.top-wrapper h1{
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p{
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.lesson-wrapper{
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+
+}
+
+.lesson-icon{
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    color: black;
+}
+
+.txt-content{
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+    text-align: center;
+}
+
+.heading h2{
+    font-weight: normal;
+}
+
+.lesson{
+    float: left;
+    width: 23%;
+    margin-left: 23px;
+}
+
+.btn{
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.7;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: 3;
+}
+
+.signup{
+    background-color: #db4a39;
+    margin-top: 5px;
+}
+
+.facebook{
+    background-color: #3b5998;
+    margin-right: 12px;
+}
+
+.twitter{
+    background-color: #55acee;
+    margin-right: 12px;
+}
+
+.bi{
+    margin-right: 5px;
+}
+
+.btn-wrapper{
+    margin: 20px 0;
+}
+
+.btn-wrapper p{
+    margin: 10px 0px;
+}
+
+.message-wrapper{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.btn-message{
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    font-weight: bold;
+}
+
+.btn-message:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.heading h3{
+    font-weight: normal;
+}
+footer{
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer img{
+    width: 300px;
+}
+
+footer p{
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+.footer{
+    background-color: rgb(39, 100, 150);
+    height: 120px;
+}
+
+.footer-logo{
+    font-size: 32px;
+    float: left;
+    padding-top: 40px;
+    padding-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-list{
+    float: right;
+    color: white;
+}
+
+.footer-list li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    list-style: none;
+    text-align: left;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-list a:visited{
+    color: white;
+    text-decoration:none;
+}
+.footer-list a:hover{
+    color:#D2F251;
+    text-decoration:none;
+}
